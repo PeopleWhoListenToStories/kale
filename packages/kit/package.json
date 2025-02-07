@@ -1,0 +1,59 @@
+{
+  "name": "@kale/kit",
+  "version": "0.0.1",
+  "description": "A utilities library for front-end developers, lightweight and ts-friendly",
+  "keywords": [
+    "utilities library",
+    "front-end developers",
+    "lightweight",
+    "ts-friendly"
+  ],
+  "bugs": {
+    "url": "https://github.com/PeopleWhoListenToStories/kale/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeopleWhoListenToStories/kale.git",
+    "directory": "packages/kit"
+  },
+  "license": "MIT",
+  "author": "xulai <xulai.me@foxmail.com>",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch --sourcemap",
+    "build": "tsup",
+    "test": "vitest run",
+    "test:dev": "vitest",
+    "release": "pnpm publish",
+    "sync": "cnpm sync @kale/stylelint-config"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js",
+        "require": "./dist/index.cjs"
+      }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+
+:root {
+  --vp-c-brand-1: #cf8040;
+  --vp-c-brand-2: #a06433;
+  --vp-button-brand-bg: #cf8040;
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #d1841f60 30%,
+    #edcb3260
+  );
+  --vp-home-hero-image-filter: blur(30px);
+}
+
+:root {
+  --vp-c-brand-1: #8a4fff; /* 主色调：紫色 */
+  --vp-c-brand-2: #6b3bcc; /* 深紫色，适用于强调 */
+  --vp-button-brand-bg: #8a4fff; /* 按钮背景颜色 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #9b5de560 30%,
+    #f15bb560
+  ); /* 紫色渐变 */
+  --vp-home-hero-image-filter: blur(30px);
+}

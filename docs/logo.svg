@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#6A0DAD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Main stem -->
+  <path d="M50 85 C48 65, 48 45, 50 20" />
+  
+  <!-- Left large leaf -->
+  <path d="M50 35 C40 20, 25 25, 20 45 C25 65, 40 60, 50 50" />
+  
+  <!-- Right large leaf -->
+  <path d="M50 35 C60 20, 75 25, 80 45 C75 65, 60 60, 50 50" />
+  
+  <!-- Top leaf -->
+  <path d="M50 20 C45 10, 35 10, 30 20 C35 30, 45 25, 50 15" />
+  
+  <!-- Secondary Left Leaf -->
+  <path d="M50 50 C45 45, 30 50, 25 55 C30 60, 45 55, 50 52" />
+  
+  <!-- Secondary Right Leaf -->
+  <path d="M50 50 C55 45, 70 50, 75 55 C70 60, 55 55, 50 52" />
+</svg>

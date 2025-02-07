@@ -1,0 +1,19 @@
+# assert
+
+当输入值不是 `true` 时抛出错误，第二个参数是错误信息。
+
+### Usage
+
+```ts
+import { assert } from '@kale/kit'
+
+const count = 99
+assert(count < 100, 'error message')
+```
+
+### 参数
+
+| 参数        |   类型    | 默认值 |
+| ----------- | :-------: | -----: |
+| `condition` | `boolean` |        |
+| `message`   | `string`  |        |

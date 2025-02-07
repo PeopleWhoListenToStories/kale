@@ -1,0 +1,25 @@
+{
+  "name": "mock",
+  "version": "0.0.2",
+  "description": "",
+  "author": "xulai <xulai.me@foxmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeopleWhoListenToStories/kale.git",
+    "directory": "apps/mock"
+  },
+  "bugs": {
+    "url": "https://github.com/PeopleWhoListenToStories/kale/issues"
+  },
+  "keywords": [],
+  "scripts": {
+    "stylelint": "npx @kale/stylelint-config"
+  },
+  "dependencies": {
+    "@kale/stylelint-config": "workspace:*"
+  },
+  "devDependencies": {
+    "vue": "^3.5.13"
+  }
+}
